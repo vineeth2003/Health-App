@@ -369,7 +369,7 @@ elif user_type == "Admin":
 elif user_type == "Chat bots":
 
     # Configure Gemini API
-    genai.configure(api_key="AIzaSyAiqlbdEg3ShavFIue783R3IAxCNrSth00")
+    genai.configure(api_key="************************")
     generation_config = {"temperature": 0.9, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
     model = genai.GenerativeModel("gemini-2.0-flash", generation_config=generation_config)
 
